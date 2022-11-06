@@ -1,0 +1,32 @@
+ .latest{
+    margin-bottom: 200px;
+
+ }
+ .latest .box{
+    background: #ccc;
+    box-shadow: var(--box_shadow);
+ }
+ .latest .boxContent{
+    padding: 10px;
+ }
+ .latest .boxContent h6{
+    color:rgb(0,128,255);
+    font-size: 20px;
+    font-weight: 700;
+    text-decoration: underline;
+    cursor: pointer;
+    text-transform: uppercase;
+ }
+ .latest .boxContent h5{
+    font-size: 20px;
+    font-weight: 900;
+    margin: 15px auto;
+ }
+ .latest .boxContent i{
+    font-size: 30px;
+    color:var(--main);
+
+ }
+ .latest .box:hover{
+    transform: scale(1.05);
+ }
